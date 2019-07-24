@@ -1,6 +1,6 @@
-Fix slow docker on mac
+Fix slow docker on macOS
 ========================
-With this step-by-step instruction you can enjoy high speed docker on mac
+With this step-by-step instruction you can enjoy high speed docker on macOS
 -----------------------
 
 1. Run recovery mode (Restart then cmd+R)
