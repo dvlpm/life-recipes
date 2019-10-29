@@ -29,6 +29,15 @@ With this step-by-step instruction you can enjoy high speed docker on macOS
     docker-machine-nfs default
     ```
 
+If you see this warning
+```bash
+exports:3: exported dir/fs mismatch: /Users /System/Volumes/Data
+```
+Then you should run docker-machine like this
+```bash
+docker-machine-nfs default --shared-folder=/System/Volumes/Data/Users --force
+```
+
 As result you should see this
 
 ```bash
